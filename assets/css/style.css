@@ -6,4 +6,39 @@
 
 html {
     background-color: #383E5C;
+    color: white;
+}
+
+body {
+    background-image: url(/assets/images/ko-bg.png);
+    height: 100vh;
+}
+
+header {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.menu-boxes {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.game-output {
+    width: 60%;
+    margin: 0 auto;
+
 }
