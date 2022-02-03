@@ -96,129 +96,20 @@
   &nbsp;
   <h3>External Links for Image Usage</h3>
   
-  <h4>Header Image #1</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/sgmS2e95QO0">Link to Photo</a></p>
+  <h4>Game Image #1</h4>
+  <p>Sourced from flaticon.com<br>
+  By Flaticon</br>
+  <a href="https://www.flaticon.com/free-icon/knot_1777095">Link to Photo</a></p>
 
-<h4>Header Image #2</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/jHcKq383ibg">Link to Photo</a></p>
+  <h4>Game Image #2</h4>
+  <p>Sourced from flaticon.com<br>
+  By Flaticon</br>
+  <a href="hhttps://www.flaticon.com/free-icon/pin_889647">Link to Photo</a></p>
 
-<h4>Header Image #3</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/75AiRF5xm0U">Link to Photo</a></p>
-
-<h4>Header Image #4</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/bSaBd5RK4kA">Link to Photo</a></p>
-<br>
-
-------
-
-<h4>Veg Page Image 1</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/YXx2cabK4Jg">Link to Photo</a></p>
-
-
-<h4>Veg Page Image 2</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/l55IGtwI8mI">Link to Photo</a></p>
-
-<h4>Veg Page Image 3</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/6PG3k3_SRHU">Link to Photo</a></p>
-
-<h4>Veg Page Image 4</h4>
+  <h4>Game Image #3</h4>
   <p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/iBW28FXHAxg">Link to Photo</a></p>
-
-—————
-
-<h4>Fruits Page Image 1</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/RLbly_gGSCA">Link to Photo</a></p>
-
-<h4>Fruits Page Image 2</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/-D6xO2LUVdk">Link to Photo</a></p>
-
-<h4>Fruits Page Image 3</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics</br>
-<a href="https://unsplash.com/photos/02mYQkbBzxo">Link to Photo</a></p>
-
-<h4>Fruits Page Image 4</h4>
-<p>Sourced from unsplash.com<br>
-By Mockup Graphics<br>
-<a href="https://unsplash.com/photos/jHcKq383ibg">Link to Photo</a></p>
-
-————-
-
-<h4>About Page Image #1</h4>
-<p>Sourced from unsplash.com<br>
-By Markus Spiske<br>
-  <a href="https://unsplash.com/photos/4PG6wLlVag4">Link to Photo</a></p>
-
-
-<h4>About Page Image #2</h4>
-<p>Sourced from unsplash.com<br>
-By Brooke Cagle <br>
-  <a href="https://unsplash.com/photos/-uHVRvDr7pg">Link to Photo</a></p>
-
-
-  —————
-
-<h4>Indoor Plants Page Image 1</h4>
-<p>Sourced from unsplash.com<br>
-By Severin Candrian<br>
-<a href="https://unsplash.com/photos/rGdSwVibhiQ">Link to Photo</a></p>
-
-<h4>Indoor Plants Page Image 2</h4>
-<p>Sourced from unsplash.com<br>
-By Kara Eads<br>
-<a href="https://unsplash.com/photos/nvo7jmzDDew">Link to Photo</a></p>
-
-<h4>Indoor Plants Page Image 3</h4>
-<p>Sourced from unsplash.com<br>
-By Scott Webb</br>
-<a href="https://unsplash.com/photos/d8m_1c3MAdI">Link to Photo</a></p>
-
-<h4>Indoor Plants Page Image 4</h4>
-<p>Sourced from unsplash.com<br>
-By Sanni Sahil<br>
-<a href="https://unsplash.com/photos/DoxGtpAsdYY">Link to Photo</a></p>
-
- —————
-
-<h4>Outdoor Plants Page Image 1</h4>
-<p>Sourced from unsplash.com<br>
-By Katriona McCarthy<br>
-<a href="https://unsplash.com/photos/3uXRJo-uAPo">Link to Photo</a></p>
-
-<h4>Outoor Plants Page Image 2</h4>
-<p>Sourced from unsplash.com<br>
-By Aleksandr Kadykov<br>
-<a href="https://unsplash.com/photos/2KMpCBrEhPQ">Link to Photo</a></p>
-
-<h4>Outoor Plants Page Image 3</h4>
-<p>Sourced from unsplash.com<br>
-By Aggie Marder</br>
-<a href="https://unsplash.com/photos/hOy8S93cM8E">Link to Photo</a></p>
-
-<h4>Outoor Plants Page Image 4</h4>
-<p>Sourced from unsplash.com<br>
-By Jason Leung<br>
-<a href="https://unsplash.com/photos/rHSxv7aRrVc">Link to Photo</a></p>
+  By Mockup Graphics</br>
+  <a href="https://www.flaticon.com/free-icon/balloon_891010">Link to Photo</a></p>
 
   &nbsp;
   <hr>
