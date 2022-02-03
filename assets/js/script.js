@@ -16,6 +16,20 @@ function getCompChoice() {
 }
 console.log(getCompChoice());
 
+function winner() {
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    compScore_span.innerHTML = compScore;
+}
+
+function loser() {
+    console.log('win');
+}
+
+function draw() {
+    console.log('win');
+}
+
 function game(userChoice) {
     const computerChoice = getCompChoice();
     const name = "pine";
@@ -23,17 +37,17 @@ function game(userChoice) {
         case "pinballon":
         case "balloonhair":
         case "hairpin":
-            console.log("User win!");
+            winnner();
             break;
         case "pinhair":
         case "hairballoon":
         case "balloonpin":
-            console.log('Computer wins!');
+            loser();
             break;
         case "pinpin":
         case "balloonballoon":
         case "hairhair":
-            console.log('Its a tie!');
+            draw();
             break;
     }
 }
