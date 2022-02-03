@@ -17,43 +17,19 @@ body {
     padding-top: 30px;
 }
 
-/** CHOICE BOXES **/
+/** MAIN PAGE **/
+
 .menu-boxes {
-    display: flex;
-    flex: wrap;
-    position: relative;
+    width: 60%;
+    margin: 0 auto;
 }
 
-.choice-box {
+.how-to-play {
     width: 50%;
-    padding: 30px;
 }
 
-.choice-content {
-    background-color: #515983;
-    display: block;
-    padding: 40px;
-    border-radius: 40px;
-    min-height: 300px;
-    margin-top: 60px;
-}
-
-.menu-boxes h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.choice-content a.button {
-    display: block;
-    min-width: 60%;
-    color: #383E5C;
-    background-color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    cursor: pointer;
+.main-page-tile {
+    display: inline-block;
 }
 
 /** GAME PAGE **/
@@ -105,6 +81,13 @@ button.item {
     border: none;
     margin-top: 20px;
 
+}
+
+.tile-container button {
+    border: none;
+    padding: 6px 16px;
+    border-radius: 8px;
+    margin-top: 12px;
 }
 
 button.comp {
