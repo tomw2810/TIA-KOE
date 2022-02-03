@@ -16,10 +16,10 @@
 <img src="assets/design/seids-screens.jpg" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
 <h3>Responsive and Desktop Views<h3>
-  <img src="assets/wireframes/homepage-wireframe.jpg" alt="An image of a wireframe structured for use of a homepage design"><br><br>
-  <img src="assets/wireframes/about-us-wireframe.jpg" alt="An image of a wireframe structured for use in the about design"><br><br>
-  <img src="assets/wireframes/contact-us-wireframe.jpg" alt="An image of a wireframe structured for use in the contact us design"><br><br>
-  <img src="assets/wireframes/seed-listing-wireframe.jpg" alt="An image of a wireframe structured for use in the seeds page design"><br><br>
+  <img src="#"><br><br>
+  <img src="#"><br><br>
+  <img src="#"><br><br>
+  <img src="#"><br><br>
 <hr>
 &nbsp;
   <h3>User Stories</h3>
@@ -29,34 +29,35 @@
   User Three - Someone who wants to watch the computer play against itself</i>
 
   <h4>User One:</h4>
-  <li>Googles ‘Help with Strawberry seeds’</li>
-  <li>Seids appears on the first page displaying information that person wants to read </li>
-  <li>Clicks onto the website and takes you to the ‘Top Seeds & Plants’ page where the relevant content is nested</li>
-<li>Once read, the user one wonders whether we have information on another seed he wants in the future</li>
-  <li>Clicks the link of the relevant seed or plant to the page displaying a certain criteria of their choosing</li>
-<li>Scrolls through to select new seed or plant to look at</li>
-  <li>Clicks on relevant seed or plant and the new page displays the information</li>
+  <li>Wants to play a game</li>
+  <li>Googles 'quick game to play'</li>
+  <li>Clicks on the link to the website taking you to the home page where the user gets a choice on options</li>
+  <li>Clicks 'Play Game' to take them to the game page.</li>
+  <li>Clicks on their choice to start the game and play against the computer</li>
+  <li>Result comes in and its win, and the goal is go to 5 so they continue playing.</li>
+  <li>They reach 5 first and decide to play another game to see if they can win again</li>
 
   <h4>User Two:</h4>
-<li>Types in the URL from using the website the previous day to see if anything changed or added to the ‘Seeds Information Page’</li>
-<li>When loaded they click the button ‘Choose Seeds’ located in the header section of the website</li>
-<li>When clicked it loads the types of seeds or plants to pick from</li>
-<li>Chooses their type of seeds they want to look at and takes you to that section of the website</li>
-<li>User two finds their desired information on a seed and leaves the site</li>
+<li>Types in the URL of the games website</li>
+<li>Takes you to the home page where the two home tiles are situated</li>
+<li>Clicks on the 'About Game' to learn how to play the game and what it is about</li>
+<li>Likes the sound of the game and decides to play the game</li>
+  <li>Loves the game and tells their friends about it</li>
 
 <h4>User Three:</h4>
-  <li>Types in the URL of the website </li>
-<li>When loaded they can clearly see the navigation links in the top right and can see a ‘Contact Us’ link</li>
-<li>Clicks the link which takes them to a page dedicated to a form in which they can input anything they wish to say to Seids.</li>
-<li>Once typed out the green button below is clicked and the message arrives to the inbox of websites URL</li>
-  <li>User three now leaves the website knowing it has sent across successfully</li>
+  <li>Wants to watch the computer play first to see if the game is for them before playing</li>
+<li>Clicks on the website link from Google or types in the URL to enter the website</li>
+<li>Clicks 'Play Game' to take them to the game page</li>
+<li>They see the computer button and press it to watch the game in action</li>
   &nbsp;
   <hr>
   &nbsp;
-  <h3>Sections:</h3>
-<img src="assets/design/nav-design.png" alt="a navigation bar and links">
-<h4>Navigation Section</h4>
-<p>The navigation element is a primary section that sits in the top right and features on all pages in order for the user to be able to navigate from any page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do. At first I designed a naviagtion element with only 3 links, but after some thought I decided that it needed a fourth link, to help the user naviagte straight to the "Top Seeds and Plants" page as this would probably be a key reason for visiting the site. Also if the site were to expand in size this page would come in handy for many to view other top hits.</p>
+  <h3>Pages:</h3>
+<img src="#">
+<h4>Home Page</h4>
+<p>The main home page has a title clearly displayed in white against the purple background 
+  
+  The navigation element is a primary section that sits in the top right and features on all pages in order for the user to be able to navigate from any page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do. At first I designed a naviagtion element with only 3 links, but after some thought I decided that it needed a fourth link, to help the user naviagte straight to the "Top Seeds and Plants" page as this would probably be a key reason for visiting the site. Also if the site were to expand in size this page would come in handy for many to view other top hits.</p>
 <br><br>
 <img src="assets/design/header-design.png" alt="a header or hero image from a website">
  <h4>Header/Hero Section</h4>
