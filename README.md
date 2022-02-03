@@ -55,11 +55,11 @@
   <h3>Pages:</h3>
 <img src="#">
 <h4>Home Page</h4>
-<p>The main home page has a title clearly displayed in white against the purple background 
+<p>The main home page has a <h1> title clearly displayed in white against the purple background to define the name of the game. The two tiles which you can view on the 
   
   The navigation element is a primary section that sits in the top right and features on all pages in order for the user to be able to navigate from any page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do. At first I designed a naviagtion element with only 3 links, but after some thought I decided that it needed a fourth link, to help the user naviagte straight to the "Top Seeds and Plants" page as this would probably be a key reason for visiting the site. Also if the site were to expand in size this page would come in handy for many to view other top hits.</p>
 <br><br>
-<img src="assets/design/header-design.png" alt="a header or hero image from a website">
+<img src="#">
  <h4>Header/Hero Section</h4>
 <p>The header/hero section allows the user to clearly identify what the website is all about. The header description contains the title ‘Learn Seeds & Grow Life’ which gives the user a clear and consice idea about the nature of the website. The title is accompanied by a paragraph giving the user a brief description about what the site provides throughout. Below we have two buttons; a primary button and a secondary button. To differentiate between importance for the user, the primary button is filled showcasing that this is the more important button to click on. To the right of the header description area we have an image of 4 varieties of plants showcasing what a user can achieve by following the steps on the website.</p>
   <br><br>
