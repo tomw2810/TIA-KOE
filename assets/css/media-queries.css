@@ -1,0 +1,194 @@
+/* SCREENS UP TO 1440PX WIDE -------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1440px) {
+    /** MAIN TITLE **/
+.game-title h1 {
+    padding-top: 80px;
+}
+.choice-content {
+    padding: 60px;
+    
+}
+}
+
+
+
+/* SCREENS 992 TO 1200PX WIDE -------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {CONTENT HERE}
+
+
+
+
+/* SCREENS 768 TO 992PX WIDE -------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 992px) {
+    .tile-container {
+        display: block;
+    }
+    .back-link {
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .back-link:hover {
+        color: white;
+    }
+    .tile {
+        width: 50%;
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .tile-content {
+        display: block;
+        width: 100%;
+    }
+    .tile img {
+        display: block;
+        width: 60px;
+        margin: 0 auto;
+    }
+    .tile h2 {
+        display: none;
+    }
+    .col-3 {
+        width: 50%;
+        text-align: left;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    button.item {
+        width: 100%;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 20px;
+    
+    }
+    button.comp {
+        width: 60%;
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: none;
+        margin-bottom: 30px;
+    }
+    .back-link {
+        margin-left: 30px;
+    }
+}
+
+
+
+/* SCREENS 577 TO 768PX WIDE -------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .tile-container {
+        display: block;
+    }
+    .back-link {
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .back-link:hover {
+        color: white;
+    }
+    .tile {
+        width: 60%;
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .tile-content {
+        display: block;
+        width: 100%;
+    }
+    .tile img {
+        display: block;
+        width: 60px;
+        margin: 0 auto;
+    }
+    .tile h2 {
+        display: none;
+    }
+    .col-3 {
+        width: 50%;
+        text-align: left;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    button.item {
+        width: 100%;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 20px;
+    
+    }
+    button.comp {
+        width: 60%;
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: none;
+        margin-bottom: 30px;
+    }
+    .back-link {
+        margin-left: 30px;
+    }
+}
+
+
+
+
+/* SCREENS 0 TO 576PX WIDE -------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 576px) {
+    /** GAME PAGE **/
+
+.tile-container {
+    display: block;
+}
+.back-link {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.back-link:hover {
+    color: white;
+}
+.tile {
+    width: 80%;
+    margin-top: 10px;
+    padding: 20px;
+}
+.tile-content {
+    display: block;
+    width: 100%;
+}
+.tile img {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+}
+.tile h2 {
+    display: none;
+}
+.col-3 {
+    width: 100%;
+}
+button.item {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+
+}
+button.comp {
+    width: 60%;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+}
+.back-link {
+    margin-left: 30px;
+}
+}
