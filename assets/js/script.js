@@ -2,6 +2,7 @@ let userScore = 0;
 let compScore = 0;
 const userScore_p = document.getElementById('userScore');
 const compScore_p = document.getElementById('compScore');
+const userPick = document.getElementById('userPick');
 const userOutput = document.querySelectorAll('result-output');
 const resultMessage = document.querySelectorAll('result-message > p');
 const pin = document.getElementById('pin');
@@ -10,21 +11,39 @@ const hair = document.getElementById('hair');
 
 
 pin.addEventListener('click', function () {
-    console.log('pin me');
+    console.log('pin');
 })
 balloon.addEventListener('click', function () {
-    console.log('balloon me');
+    console.log('balloon');
 })
 hair.addEventListener('click', function () {
-    console.log('hair me');
+    console.log('hair');
 })
 
-
-function getCompChoice() {
+function computerPick() {
     const choices = ['pin', 'balloon', 'hair'];
     let randomNumber = (Math.floor(Math.random() * 3));
     return choices[randomNumber];
 }
+
+function userPick() {
+    const choices = ['pin', 'balloon', 'hair'];
+    if (choices === pin) {
+        const content = document.getElementsById('user-pick');
+
+    }
+}
+
+function loss();
+
+function draw();
+
+function winner();
+
+function vsComp();
+
+
+
 
 console.log(getCompChoice());
 
@@ -33,14 +52,6 @@ function winner(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
     output.innerHTML = userChoice + "defeats" + computerChoice + "You win!";
-}
-
-function loser() {
-    console.log('lose');
-}
-
-function draw() {
-    console.log('draw');
 }
 
 function game(userChoice) {

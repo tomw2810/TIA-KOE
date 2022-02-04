@@ -24,15 +24,56 @@
 
 /* SCREENS 768 TO 992PX WIDE -------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 992px) {
+
+    /** MAIN TITLE **/
+    .game-title h1 {
+        padding-top: 30px;
+    }
+
+    /** CHOICE BOXES **/
+
+    .choice-box {
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    .choice-content {
+        background-color: #515983;
+        display: block;
+        padding: 20px;
+        border-radius: 40px;
+        min-height: 300px;
+        margin-top: 30px;
+    }
+
+    .menu-boxes h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .choice-content a.button {
+        display: block;
+        min-width: 60%;
+        color: #383E5C;
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /** GAME PAGE **/
+
     .tile-container {
         display: block;
+        margin-top: 30px;
     }
 
     .back-link {
         text-decoration: none;
         color: white;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .back-link:hover {
@@ -40,9 +81,15 @@
     }
 
     .tile {
-        width: 50%;
-        margin-top: 10px;
-        padding: 20px;
+        display: block;
+        background-color: #515983;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 30px;
+        -webkit-box-shadow: 0px 0px 14px 2px #282e4e;
+        box-shadow: 0px 0px 30px 2px #282e4e;
+        border-radius: 12px;
     }
 
     .tile-content {
@@ -50,21 +97,24 @@
         width: 100%;
     }
 
+    .tile-content button {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
     .tile img {
         display: block;
         width: 60px;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .tile h2 {
-        display: none;
-    }
-
-    .col-3 {
-        width: 50%;
-        text-align: left;
-        padding-left: 60px;
-        padding-right: 60px;
+        text-align: center;
+        margin-top: 12px;
     }
 
     button.item {
@@ -76,16 +126,43 @@
 
     }
 
+    .result-output {
+        margin-top: 20px;
+    }
+
     button.comp {
-        width: 60%;
+        width: 70%;
         padding: 6px 10px;
         border-radius: 8px;
         border: none;
-        margin-bottom: 30px;
     }
 
-    .back-link {
-        margin-left: 30px;
+    p.game-out-text {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    /** ABOUT GAME PAGE **/
+
+    .about-info {
+        margin-top: 100px;
+        width: 60%;
+        background-color: #515983;
+        padding: 40px;
+        -webkit-box-shadow: 0px 0px 14px 2px #282e4e;
+        box-shadow: 0px 0px 30px 2px #282e4e;
+        border-radius: 12px;
+    }
+
+    .game-info h3 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .game-info p {
+        line-height: 26px;
+
     }
 }
 
@@ -93,15 +170,56 @@
 
 /* SCREENS 577 TO 768PX WIDE -------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
+
+    /** MAIN TITLE **/
+    .game-title h1 {
+        padding-top: 30px;
+    }
+
+    /** CHOICE BOXES **/
+
+    .choice-box {
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    .choice-content {
+        background-color: #515983;
+        display: block;
+        padding: 20px;
+        border-radius: 40px;
+        min-height: 300px;
+        margin-top: 30px;
+    }
+
+    .menu-boxes h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .choice-content a.button {
+        display: block;
+        min-width: 60%;
+        color: #383E5C;
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 20px;
+        margin-bottom: 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /** GAME PAGE **/
+
     .tile-container {
         display: block;
+        margin-top: 30px;
     }
 
     .back-link {
         text-decoration: none;
         color: white;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .back-link:hover {
@@ -109,9 +227,15 @@
     }
 
     .tile {
-        width: 60%;
-        margin-top: 10px;
-        padding: 20px;
+        display: block;
+        background-color: #515983;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 30px;
+        -webkit-box-shadow: 0px 0px 14px 2px #282e4e;
+        box-shadow: 0px 0px 30px 2px #282e4e;
+        border-radius: 12px;
     }
 
     .tile-content {
@@ -119,21 +243,24 @@
         width: 100%;
     }
 
+    .tile-content button {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
     .tile img {
         display: block;
         width: 60px;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .tile h2 {
-        display: none;
-    }
-
-    .col-3 {
-        width: 50%;
-        text-align: left;
-        padding-left: 60px;
-        padding-right: 60px;
+        text-align: center;
+        margin-top: 12px;
     }
 
     button.item {
@@ -145,16 +272,43 @@
 
     }
 
+    .result-output {
+        margin-top: 20px;
+    }
+
     button.comp {
-        width: 60%;
+        width: 70%;
         padding: 6px 10px;
         border-radius: 8px;
         border: none;
-        margin-bottom: 30px;
     }
 
-    .back-link {
-        margin-left: 30px;
+    p.game-out-text {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    /** ABOUT GAME PAGE **/
+
+    .about-info {
+        margin-top: 100px;
+        width: 60%;
+        background-color: #515983;
+        padding: 40px;
+        -webkit-box-shadow: 0px 0px 14px 2px #282e4e;
+        box-shadow: 0px 0px 30px 2px #282e4e;
+        border-radius: 12px;
+    }
+
+    .game-info h3 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .game-info p {
+        line-height: 26px;
+
     }
 }
 
