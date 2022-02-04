@@ -25,6 +25,7 @@ function getCompChoice() {
     let randomNumber = (Math.floor(Math.random() * 3));
     return choices[randomNumber];
 }
+
 console.log(getCompChoice());
 
 function winner(userChoice, computerChoice) {
@@ -63,7 +64,6 @@ function game(userChoice) {
     }
 }
 
--
 function runGame() {
     pin.addEventListener('click', function () {
         game('pin');
