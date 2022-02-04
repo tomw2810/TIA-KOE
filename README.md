@@ -55,45 +55,30 @@
   <h3>Pages:</h3>
 <img src="#">
 <h4>Home Page</h4>
-<p>The main home page has a <h1> title clearly displayed in white against the purple background to define the name of the game. The two tiles which you can view on the 
-  
-  The navigation element is a primary section that sits in the top right and features on all pages in order for the user to be able to navigate from any page. It consists of the logo and links in order to identify the website and navigate from A to B depending on what the user intends to do. At first I designed a naviagtion element with only 3 links, but after some thought I decided that it needed a fourth link, to help the user naviagte straight to the "Top Seeds and Plants" page as this would probably be a key reason for visiting the site. Also if the site were to expand in size this page would come in handy for many to view other top hits.</p>
+<p>The main home page has a h1 title clearly displayed in white against the purple background to define the name of the game. The two tiles which you can view on the page have been split into two sections; one for learning about the game and the other for exploring more about the game. Within the two sections we have defined buttons which have two commands taking you to either a game or more information on how the game came about. </p>
 <br><br>
 <img src="#">
- <h4>Header/Hero Section</h4>
-<p>The header/hero section allows the user to clearly identify what the website is all about. The header description contains the title ‘Learn Seeds & Grow Life’ which gives the user a clear and consice idea about the nature of the website. The title is accompanied by a paragraph giving the user a brief description about what the site provides throughout. Below we have two buttons; a primary button and a secondary button. To differentiate between importance for the user, the primary button is filled showcasing that this is the more important button to click on. To the right of the header description area we have an image of 4 varieties of plants showcasing what a user can achieve by following the steps on the website.</p>
+ <h4>About Game Page</h4>
+<p>On this page we have a simple tile with information on the game. It has a small decription of what the game involves and where the game came from.</p>
   <br><br>
-  <img src="assets/design/seeds-selection-design.png" alt="a section of the website showing 4 options to navigate to">
-<h4>Seed/Plants Selection</h4>
+  <img src="#" alt="#">
+<h4>Game Page</h4>
 
-<p>In the selection area we have 4 images, each with a title. These are links which a user can click or tap on to be taken to the relevant page. It consists of a title, small description and 4 cards to pick from. The cards use illustrations from an external source which is listed below. Behind the image is a small rounded shape which makes the images pop and pushes towards the user for interaction should they wish.</p>
+<p>On the game page we have a more in depth page where we have a title of the game at the top. Below the title there is a back link to go back to the home page and choose another option for those unsure making easy to navigate. For this particular game we have three tiles with the three options: pin, balloon and hair. The aim  of the game is to beat the item that is vunerable to it. The pin will beat the balloon by popping it, the balloon will beat the hair by getting it stuck to the balloon becuase of static energy and the hair will beat the pin because it will wrap itself around the pin.</p>
 <br><br>
-<img src="assets/design/footer-design.png" alt="a footer with links from the website">
-<h4>Footer Section</h4>
-<p>In the footer we reuse the logo to reinforce the identify the website. Below the logo we have three useful sections where we give the user a variety of links to help navigate after reading through the websites current page. The links cover all the main pages on the website and also include links out to social media pages. As a small company these links can help generate interest through external websites to promote products and interact with loyal seed lovers.</p>
-<br><br>
-<img src="assets/design/seeds-page-design.png" alt="a section from the seed and plants listings">
-<h4>Seeds & Plants Section</h4>
-<p>On the seeds info and guide page it displays a variety of seeds along with the key info about each choice. I designed this page with a two by two grid as it makes for easy reading and viewing as well as being broken down easily for mobile devices. After I designed the page and started doing some userbility testing I quickly realised it needed something on the page to navigate to the other types of seeds and plants, this was something that I completely overlooked until it was in testing stage so the links below the title were added for ease of use throughout the pages and works well.
-<br><br>
-<img src="assets/design/about-us-design.png" alt="an about us section from the about us page">
-<h4>About Us Section</h4>
-<p>In the about section we have a short paragraph briefly explaining the birth of the website and goals along with some relevant imagery to add interest to the page.</p>
-  <br>
-  <br>
-  <img src="assets/design/contact-us-design.png" alt="a section from contact us page displaying the form">
-  <h4>Contact Section</h4>
-  <p>Here we have a basic contact form that users can fill out with any queries or concerns about the info provided on the website Seids</p>
+<img src="#" alt="#">
   &nbsp;
  <hr>
   &nbsp;
-<h3>Future Enhancements and Improvement of Features:</h3>
 
-<p>In time this site could become a live e-commerce website with the buying and selling of seeds becoming its primary feature, alongside providing key information on choosing and growing plants. It could also include "How To" videos uploaded by well known plant experts giving users tips and tricks or showcasing different types of plants. Also the single page of "Seeds and Plants" could be split up to become multiple separate pages dedicated to individual seeds; with more in depth information along with needs and requirements. </p>
+  <h3>Future Enhancements and Improvement of Features:</h3>
+
+<p>Because I struggled to get to grips with this game and its features there are many I would like to implement </p>
   
   &nbsp;
   <hr>
   &nbsp;
+  
   <h3>External Links for Image Usage</h3>
   
   <h4>Game Image #1</h4>
@@ -119,14 +104,14 @@
   <h4>Programming Languages</h4>
   <li>HTML</li>
   <li>CSS</li>
+  <li>JavaScript</li>
+  
   <h4>Technology</h4>
   <li>Github</li>
-  <li>Figma</li>
   <li>Google Chrome Developer Tools</li>
+  
   <h4>Third Party Sites Used</h4>
   <li><a href="http://flaticon.com">Flaticon</a></li>
-  <li><a href="http://fonts.google.com">Google Fonts</a></li>
-  <li><a href="http://unsplash.com">Unsplash</a></li>
   &nbsp;
   <h3>Validator Tests<h3>
   <h4>HTML</h4>
