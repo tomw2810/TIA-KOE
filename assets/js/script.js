@@ -1,9 +1,9 @@
 let userScore = 0;
 let compScore = 0;
-const userScore_p = document.getElementById('userScore');
-const compScore_p = document.getElementById('compScore');
-const userPick = document.getElementById('userPick');
-const userOutput = document.querySelectorAll('result-output');
+const userScore_p = document.getElementById('u-s');
+const compScore_p = document.getElementById('c-s');
+const userPick = document.getElementById('user-pick');
+const compPick = document.getElementById('comp-pick');
 const resultMessage = document.querySelectorAll('result-message > p');
 const pin = document.getElementById('pin');
 const balloon = document.getElementById('balloon');
@@ -31,25 +31,24 @@ function userPicker(computerPick) {
     } else if (choices === hair) {
         document.getElementById("userPick").innerHTML = hair;
     }
-    return null;
 }
 
 function loss() {
     compScore++;
+    userScore_p.innerHTML = userScore;
     compScore_p.innerHTML = compScore;
 };
 
 function draw() {
-
+    userScore-- + compScore--;
+    userScore_p.innerHTML = userScore;
+    compScore_p.innerHTML = compScore;
 };
 
 function winner() {
     userScore++;
     userScore_p.innerHTML = userScore;
-};
-
-function vsComp() {
-
+    compScore_p.innerHTML = compScore;
 };
 
 function computerPick() {
@@ -62,28 +61,28 @@ function game() {
     const computerChoice = computerPick();
     cnosole.log("user choice => " + userPick);
     console.log("computer pick => +" + computerPick);
-}
+};
 
-function game(userPick) {
+function game(userChoice) {
     const computerChoice = computerPick();
-    switch (userPick + computerPick) {
+    switch (userChoice + computerChoice) {
         case "pinballon":
         case "balloonhair":
         case "hairpin":
-            winnner(userPick, computerPick);
+            winner();
             break;
         case "pinhair":
         case "hairballoon":
         case "balloonpin":
-            loser(userPick, computerPick);
+            loss();
             break;
         case "pinpin":
         case "balloonballoon":
         case "hairhair":
-            draw(userPick, computerChoice);
+            draw();
             break;
     }
-}
+};
 
 function runGame() {
     pin.addEventListener('click', function () {
@@ -95,12 +94,12 @@ function runGame() {
     hair.addEventListener('click', function () {
         game('hair');
     })
-}
+};
 runGame();
 
 function runGameComputer() {
     compvs.addEventListener('click', function () {
-        game('#');
+        game('vscomp');
     })
-}
+};
 runGameComputer();
