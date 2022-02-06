@@ -11,14 +11,46 @@ const hair = document.getElementById('hair');
 
 
 pin.addEventListener('click', function () {
-    console.log('pin');
+    console.log('You have chosen pin!');
 })
 balloon.addEventListener('click', function () {
-    console.log('balloon');
+    console.log('You have chosen balloon!');
 })
 hair.addEventListener('click', function () {
-    console.log('hair');
+    console.log('You have chosen hair!');
 })
+
+
+
+function userPicker(computerPick) {
+    const choices = ['pin', 'balloon', 'hair'];
+    if (choices === pin) {
+        document.getElementById("userPick").innerHTML = pin;
+    } else if (choices === balloon) {
+        document.getElementById("userPick").innerHTML = balloon;
+    } else if (choices === hair) {
+        document.getElementById("userPick").innerHTML = hair;
+    }
+    return null;
+}
+
+function loss() {
+    compScore++;
+    compScore_p.innerHTML = compScore;
+};
+
+function draw() {
+
+};
+
+function winner() {
+    userScore++;
+    userScore_p.innerHTML = userScore;
+};
+
+function vsComp() {
+
+};
 
 function computerPick() {
     const choices = ['pin', 'balloon', 'hair'];
@@ -26,55 +58,33 @@ function computerPick() {
     return choices[randomNumber];
 }
 
-function userPick() {
-    const choices = ['pin', 'balloon', 'hair'];
-    if (choices === pin) {
-        const content = document.getElementsById('user-pick');
-
-    }
+function game() {
+    const computerChoice = computerPick();
+    cnosole.log("user choice => " + userPick);
+    console.log("computer pick => +" + computerPick);
 }
 
-function loss();
-
-function draw();
-
-function winner();
-
-function vsComp();
-
-
-
-
-console.log(getCompChoice());
-
-function winner(userChoice, computerChoice) {
-    userScore++;
-    userScore_span.innerHTML = userScore;
-    compScore_span.innerHTML = compScore;
-    output.innerHTML = userChoice + "defeats" + computerChoice + "You win!";
-}
-
-function game(userChoice) {
-    const computerChoice = getCompChoice();
-    switch (userChoice + computerChoice) {
+/* function game(userPick) {
+    const computerChoice = computerPick();
+    switch (userPick + computerPick) {
         case "pinballon":
         case "balloonhair":
         case "hairpin":
-            winnner(userChoice, computerChoice);
+            winnner(userPick, computerPick);
             break;
         case "pinhair":
         case "hairballoon":
         case "balloonpin":
-            loser(userChoice, computerChoice);
+            loser(userPick, computerPick);
             break;
         case "pinpin":
         case "balloonballoon":
         case "hairhair":
-            draw(userChoice, computerChoice);
+            draw(userPick, computerChoice);
             break;
     }
 }
-
+*/
 function runGame() {
     pin.addEventListener('click', function () {
         game('pin');
