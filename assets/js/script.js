@@ -25,11 +25,12 @@ hair.addEventListener('click', function () {
 function userPicker(computerPick) {
     const choices = ['pin', 'balloon', 'hair'];
     if (choices === pin) {
-        document.getElementById("userPick").innerHTML = pin;
+        document.getElementById("user-pick").innerHTML = pin;
+        let result = document.innerHTML = ('I played pin');
     } else if (choices === balloon) {
-        document.getElementById("userPick").innerHTML = balloon;
+        document.getElementById("user-pick").innerHTML = balloon;
     } else if (choices === hair) {
-        document.getElementById("userPick").innerHTML = hair;
+        document.getElementById("user-pick").innerHTML = hair;
     }
 }
 
@@ -40,9 +41,7 @@ function loss() {
 };
 
 function draw() {
-    userScore-- + compScore--;
-    userScore_p.innerHTML = userScore;
-    compScore_p.innerHTML = compScore;
+
 };
 
 function winner() {
@@ -51,17 +50,33 @@ function winner() {
     compScore_p.innerHTML = compScore;
 };
 
+function gameEnd() {
+    if (userScore === 5 || compScore === 5) {
+        alert("The game has ended");
+    }
+}
+
+/* COMPUTER CHOICE */
 function computerPick() {
     const choices = ['pin', 'balloon', 'hair'];
     let randomNumber = (Math.floor(Math.random() * 3));
     return choices[randomNumber];
 }
 
+
 function game() {
     const computerChoice = computerPick();
-    cnosole.log("user choice => " + userPick);
-    console.log("computer pick => +" + computerPick);
-};
+    console.log("user choice => " + userPick);
+    console.log("computer pick => " + computerPick);
+}
+
+function gameEnd() {
+    if (userScore === 5 || compScore === 5) {
+        alert("The game has ended");
+    };
+    game();
+}
+
 
 function game(userChoice) {
     const computerChoice = computerPick();
@@ -82,6 +97,7 @@ function game(userChoice) {
             draw();
             break;
     }
+
 };
 
 function runGame() {
@@ -97,9 +113,9 @@ function runGame() {
 };
 runGame();
 
-function runGameComputer() {
+function runGameComputer(game) {
     compvs.addEventListener('click', function () {
-        game('vscomp');
+        console.log('You clicked the button')
     })
 };
 runGameComputer();
