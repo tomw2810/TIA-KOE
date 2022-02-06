@@ -64,7 +64,7 @@ function game() {
     console.log("computer pick => +" + computerPick);
 }
 
-/* function game(userPick) {
+function game(userPick) {
     const computerChoice = computerPick();
     switch (userPick + computerPick) {
         case "pinballon":
@@ -84,7 +84,7 @@ function game() {
             break;
     }
 }
-*/
+
 function runGame() {
     pin.addEventListener('click', function () {
         game('pin');
@@ -97,3 +97,10 @@ function runGame() {
     })
 }
 runGame();
+
+function runGameComputer() {
+    compvs.addEventListener('click', function () {
+        game('#');
+    })
+}
+runGameComputer();
