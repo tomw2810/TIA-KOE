@@ -11,13 +11,16 @@ const hair = document.getElementById('hair');
 
 
 pin.addEventListener('click', function () {
-    console.log('You have chosen pin!');
+    let pinActive = document.getElementById('u-p');
+    pinActive.innerHTML = 'pin!';
 })
 balloon.addEventListener('click', function () {
-    console.log('You have chosen balloon!');
+    let balloonActive = document.getElementById('u-p');
+    balloonActive.innerHTML = 'balloon!';
 })
 hair.addEventListener('click', function () {
-    console.log('You have chosen hair!');
+    let hairActive = document.getElementById('u-p');
+    hairActive.innerHTML = 'hair!';
 })
 
 
