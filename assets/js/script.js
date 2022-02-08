@@ -51,25 +51,6 @@ function userPicker(computerPick) {
 
 
 
-function loss() {
-    compScore++;
-    userScore_p.innerHTML = userScore;
-    compScore_p.innerHTML = compScore;
-    document.getElementById('outcome-text').innerHTML = 'You lose that round!';
-};
-
-function draw() {
-    document.getElementById('outcome-text').innerHTML = 'You draw that round!';
-};
-
-function winner() {
-    userScore++;
-    userScore_p.innerHTML = userScore;
-    compScore_p.innerHTML = compScore;
-    document.getElementById('outcome-text').innerHTML = 'You win that round!';
-};
-
-
 /* COMPUTER CHOICE */
 function computerPick() {
     const choices = ['pin', 'balloon', 'hair'];
@@ -99,21 +80,42 @@ function game(userChoice) {
         case "pinballon":
         case "balloonhair":
         case "hairpin":
-            winner();
+            determineWinner(computerChoice, userChoice, "user");
             break;
         case "pinhair":
         case "hairballoon":
         case "balloonpin":
-            loss();
+            determineWinner(computerChoice, userChoice, "computer");
             break;
         case "pinpin":
         case "balloonballoon":
         case "hairhair":
-            draw();
+            determineWinner(computerChoice, userChoice, "draw");
             break;
     }
 
 };
+
+function determineWinner(computerChoice, userChoice, winner) {
+    switch (winner) {
+        case "computer":
+            compScore++;
+            compScore_p.innerHTML = compScore;
+            document.getElementById('outcome-text').innerHTML = 'You lose that round!';
+            break;
+        case "user":
+            userScore++;
+            userScore_p.innerHTML = userScore;
+            document.getElementById('outcome-text').innerHTML = 'You win that round!';
+            break;
+        case "draw":
+            document.getElementById('outcome-text').innerHTML = 'You draw that round!';
+            break;
+
+    }
+    document.getElementById('c-p').innerHTML = computerChoice;
+    document.getElementById('u-p').innerHTML = userChoice;
+}
 
 
 function runGameComputer(game) {
