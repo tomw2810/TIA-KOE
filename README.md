@@ -10,16 +10,12 @@
   </p>
 <br><br>
 <h3>Link to Deployed Website</h3>
-<p><a href="https://tomw2810.github.io/seids-project-1/">TIA-KOE</a>
+<p><a href="https://tomw2810.github.io/tia-koe/">TIA-KOE</a>
   <br>
   <br>
-<img src="assets/design/seids-screens.jpg" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
 <h3>Responsive and Desktop Views<h3>
-  <img src="assets/images/#.jpg"><br><br>
-  <img src="#"><br><br>
-  <img src="#"><br><br>
-  <img src="#"><br><br>
+  <img src="assets/images/tia-koe-mockup.jpg"><br><br>
 <hr>
 &nbsp;
   <h3>User Stories</h3>
