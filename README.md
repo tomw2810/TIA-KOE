@@ -10,13 +10,13 @@
   </p>
 <br><br>
 <h3>Link to Deployed Website</h3>
-<p><a href="https://tomw2810.github.io/seids-project-1/">Seids</a>
+<p><a href="https://tomw2810.github.io/seids-project-1/">TIA-KOE</a>
   <br>
   <br>
 <img src="assets/design/seids-screens.jpg" alt="A view of various screen sizes showing repsonsiveness of design">
 <hr>
 <h3>Responsive and Desktop Views<h3>
-  <img src="#"><br><br>
+  <img src="assets/images/#.jpg"><br><br>
   <img src="#"><br><br>
   <img src="#"><br><br>
   <img src="#"><br><br>
@@ -53,15 +53,15 @@
   <hr>
   &nbsp;
   <h3>Pages:</h3>
-<img src="#">
+<img src="assets/images/homepage.jpg" alt="a picture of the homepage >
 <h4>Home Page</h4>
 <p>The main home page has a h1 title clearly displayed in white against the purple background to define the name of the game. The two tiles which you can view on the page have been split into two sections; one for learning about the game and the other for exploring more about the game. Within the two sections we have defined buttons which have two commands taking you to either a game or more information on how the game came about. </p>
 <br><br>
-<img src="#">
+<img src="assets/images/about-game-page.jpg" alt="a picture of the about game page>
  <h4>About Game Page</h4>
 <p>On this page we have a simple tile with information on the game. It has a small decription of what the game involves and where the game came from.</p>
   <br><br>
-  <img src="#" alt="#">
+  <img src="assets/images/game-page.jpg" alt="a picture of the game page">
 <h4>Game Page</h4>
 
 <p>On the game page we have a more in depth page where we have a title of the game at the top. Below the title there is a back link to go back to the home page and choose another option for those unsure making easy to navigate. For this particular game we have three tiles with the three options: pin, balloon and hair. The aim  of the game is to beat the item that is vunerable to it. The pin will beat the balloon by popping it, the balloon will beat the hair by getting it stuck to the balloon becuase of static energy and the hair will beat the pin because it will wrap itself around the pin.</p>
@@ -121,34 +121,24 @@
   <li>Contact Us Page - No Issues Found</li>
 
   <h4>CSS</h4>
-  <p>Shorthand of 'flex' not a valid declaration, this was used 6 times as it was something I knew you could do but unaware of it being wrong in the validation process. I used 'flex: row wrap;' and it should be 'flex-wrap: wrap;' with 'flex-direction: row;' This has now changed passed the validation process.</p>
-  <p>Accidentally left an 'auto' next to my viewport height for the headers background image. This is now removed and passes the validation</p>
+  <p></p>
+  <p></p>
   
  <hr>
   
   <h3>Bugs & Fixes</h3>
-  <h4>Issue with Image on Header</h4>
-  <p>After being told I couldn't use bootstrap I was very anxious to see how easy or hard the coding would be without it. The first bug found was that the image on the header was not placed within the div in a way which it could respond how I thought it would. I tried using its own container as well just adding the code inside the container to the left but I cant get it to act the way I would like and essentially should. The media queries for this also caused an issue because I was using percentages and I wasn't fully confident with what i was typing. The code that had been written was not able to stack the content as intended so I asked about what I could do and got told about flex and flexbox to which I had to implement it all across the site to make it work as best as I could. The fix still isnt perfect with the header image not centering properly with the content on smaller devices but it is now much more desirable than before to a user.
-    <br>
-  <h4>Image Size on About Page</h4>
-  <p>When I initially uploaded the images for this project I thought that the images could be cropped and fitted correctly forgetting there isnt a declaration like background-image and centering the image. This caused me to have to upload a new image and crop it ready for the space intended. It now has dimensions which work for the content.
-    <br>
-  <h4>Github and Gitpages</h4>
-  <p>When I had completed the project I wanted to make sure the site was going to work for public use and therefore found the link to the site. Unfortunately the styling was missing from the website completely. It showed the content from the html pages but nothing from the css pages. I contacted a tutor on how to fix it after I couldnt find an answer from Google or from Slack. The tutor pointed out that they run file paths slightly different which I wasnt aware of. I removed the ../ from the file paths for the images and CSS files and it finally worked.
-    <br>
-  <h4>Seeds Page</h4>
-  <p>I still have a slight issue when viewing this page on certain screen sizes as for some reason it stacks off center and I can't seem to make it right. I have searched online for some extra clues as to why but cant seem to find a solution for my code. I have tweaked the code to the best of my current knowledge and aim to come back to this at some point to see what i can change to make it right.
-  <hr>
+  <h4>Issue with </h4>
+ 
     
   <h3>Lighthouse Accesibilty</h3>
-  <li>Performance - 81</li>
-  <li>Accessibility - 97</li>
-  <li>Best Practices - 93</li>
-  <li>SEO - 77</li>
+  <li>Performance - </li>
+  <li>Accessibility - </li>
+  <li>Best Practices - </li>
+  <li>SEO - </li>
   
   <br>
   <hr>
-   <h3>Manual Testing</h3>
+  <h3>Manual Testing</h3>
   <li>Mobile 320px</li>
   <li>Mobile 375px</li>
   <li>Mobile 425px</li>
@@ -162,15 +152,6 @@
   <li>Google Chrome (Main Program)</li>
   <hr>
  
-  <h3>Acknowledgements</h3>
-  <h4>Leah Fisher</h4>
-  <p>Looking at leahs README.md I was able to understand more about what was meant to go on the document and realised it was a bit more in depth than what I first intially thought. So I thank her document for the appropriate help.</p>
-  <h4>Code Institute Tutors</h4>
-  <p>When I had a problem with my file paths they were quick and efficient in telling me the resolution to my issue and stayed online to make sure they worked before leaving the chat.
-  <h4>W3Schools</h4>
-  <p>Section on Flexbox was used to quickly understand certain rules for desktop and mobile layouts</p>
-   <hr>
-  
   
   <h4>Thanks for reading!</h4>
  
