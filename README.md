@@ -15,7 +15,7 @@
   <br>
 <hr>
 <h3>Responsive and Desktop Views<h3>
-  <img src="assets/images/tia-koe-mockup.jpg"><br><br>
+  <img src="assets/design/images/tia-koe-mockup.jpg"><br><br>
 <hr>
 &nbsp;
   <h3>User Stories</h3>
@@ -49,15 +49,15 @@
   <hr>
   &nbsp;
   <h3>Pages:</h3>
-<img src="assets/images/homepage.jpg" alt="a picture of the homepage >
+<img src="assets/images/design/homepage.jpg" alt="a picture of the homepage">
 <h4>Home Page</h4>
 <p>The main home page has a h1 title clearly displayed in white against the purple background to define the name of the game. The two tiles which you can view on the page have been split into two sections; one for learning about the game and the other for exploring more about the game. Within the two sections we have defined buttons which have two commands taking you to either a game or more information on how the game came about. </p>
 <br><br>
-<img src="assets/images/about-game-page.jpg" alt="a picture of the about game page>
+<img src="assets/images/design/about-game-page.jpg" alt="a picture of the about game page">
  <h4>About Game Page</h4>
 <p>On this page we have a simple tile with information on the game. It has a small decription of what the game involves and where the game came from.</p>
   <br><br>
-  <img src="assets/images/game-page.jpg" alt="a picture of the game page">
+  <img src="assets/images/design/game-page.jpg" alt="a picture of the game page">
 <h4>Game Page</h4>
 
 <p>On the game page we have a more in depth page where we have a title of the game at the top. Below the title there is a back link to go back to the home page and choose another option for those unsure making easy to navigate. For this particular game we have three tiles with the three options: pin, balloon and hair. The aim  of the game is to beat the item that is vunerable to it. The pin will beat the balloon by popping it, the balloon will beat the hair by getting it stuck to the balloon becuase of static energy and the hair will beat the pin because it will wrap itself around the pin.</p>
