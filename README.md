@@ -10,7 +10,7 @@
   </p>
 <br><br>
 <h3>Link to Deployed Website</h3>
-<p><a href="https://tomw2810.github.io/tia-koe/">TIA-KOE</a>
+<p><a href="https://tomw2810.github.io/TIA-KOE/">TIA-KOE</a>
   <br>
   <br>
 <hr>
