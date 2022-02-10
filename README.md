@@ -82,7 +82,7 @@
   <h4>Game Image #2</h4>
   <p>Sourced from flaticon.com<br>
   By Flaticon</br>
-  <a href="hhttps://www.flaticon.com/free-icon/pin_889647">Link to Photo</a></p>
+  <a href="https://www.flaticon.com/free-icon/pin_889647">Link to Photo</a></p>
 
   <h4>Game Image #3</h4>
   <p>Sourced from unsplash.com<br>
