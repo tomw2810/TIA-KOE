@@ -66,7 +66,7 @@
 
   <h3>Future Enhancements and Improvement of Features:</h3>
 
-<p>For the future versions I want to elaberate on the on screen activity. I feel in time this project can be brought to life with some cool animations as well as some UI improvements within the game structure. The colours are good but with a less constricted timeline there could be some more colours involved with the static look as well as the interactivity of the game when a user clicks, gets the result back and playing computer only. The content can also be expanded with maybe some more things being added to the about game and also some additional features for the game such as pop ups like I previously mentioned. </p>
+<p>For the future versions I want to elaberate on the on screen activity. I feel in time this project can be brought to life with some cool animations as well as some UI improvements within the game structure. The colours are good but with a less constricted timeline there could be some more colours involved with the static look as well as the interactivity of the game when a user clicks, gets the result back and playing computer only. The content can also be expanded with maybe some more things being added to the about game and also some additional features for the game such as pop ups like I previously mentioned. I would also like to added what the user picked and what the computer picked and have it displayed on the screen clearer.</p>
   
   &nbsp;
   <hr>
@@ -109,14 +109,13 @@
   <h3>Validator Tests<h3>
   <p>For the content present, these are the results of the validator test</p>
   <h4>HTML</h4>
-  <li>Index - No Issues Found</li>
-  <li>Seeds Pages - No Issues Found</li>
-  <li>About Page - No Issues Found</li>
-  <li>Contact Us Page - No Issues Found</li>
+  <li>Homepage - No Issues Found</li>
+  <li>Game Page - No Issues Found</li>
+  <li>About Game Page - No Issues Found</li>
+  
 
-  <h4>CSS</h4>
-  <p></p>
-  <p></p>
+  <h4>CSS & Media Queries</h4>
+  <p>No Issues Found</p>
   
  <hr>
   
@@ -127,13 +126,29 @@
   <p>When inputting the images link I typed in the images and the design folder when the images for the project only in the design folder underneath the assets folder but that was a simple removal and it worked fine.</p>
   <h4>Repitition</h4>
   <p>After a discussion with my mentor he explained that what I had done was fine but I repeating myself a bit makes it harder further down the line with using the functions in different ways and condensing it meant the code will always be there but in a cleaner way if needed moving forward. We condensed three functions for the loss, win and draw in to a switch statement to make it easier to read and understand should there be an issue with the code.</p>
+
+  <h4>Game Not Completed Issues</h4>
+  <p>On this website their are elements which do not currently work. One of them is the computer vs computer button as I havent managed to figure this out to get it working.</p>
+  <p>There is currently not an ending score meaning the game just carrys on until you close the window. It has come about due not having the time and in the time I did not get the desired information required to help me.</p>
  
-    
-  <h3>Lighthouse Accesibilty</h3>
-  <li>Performance - </li>
-  <li>Accessibility - </li>
-  <li>Best Practices - </li>
-  <li>SEO - </li>
+  <h4>Lighthouse Testing</h4>L
+  <h3>Game Page</h3>
+  <li>Performance - 99</li>
+  <li>Accessibility - 84</li>
+  <li>Best Practices - 100</li>
+  <li>SEO - 83</li>
+
+  <h3>Home Page</h3>
+  <li>Performance - 97</li>
+  <li>Accessibility - 100</li>
+  <li>Best Practices - 100</li>
+  <li>SEO - 91</li>
+
+  <h3>About Page</h3>
+  <li>Performance - 79</li>
+  <li>Accessibility - 100</li>
+  <li>Best Practices - 92</li>
+  <li>SEO - 91</li>
   
   <br>
   <hr>

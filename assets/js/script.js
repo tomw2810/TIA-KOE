@@ -2,9 +2,6 @@ let userScore = 0;
 let compScore = 0;
 const userScore_p = document.getElementById('u-s');
 const compScore_p = document.getElementById('c-s');
-const userPick = document.getElementById('user-pick');
-const compPick = document.getElementById('comp-pick');
-const resultMessage = document.querySelectorAll('result-message > p');
 const pin = document.getElementById('pin');
 const balloon = document.getElementById('balloon');
 const hair = document.getElementById('hair');
@@ -13,27 +10,27 @@ const hair = document.getElementById('hair');
 pin.addEventListener('click', function () {
     let pinActive = document.getElementById('u-p');
     pinActive.innerHTML = 'pin!';
-})
+});
 balloon.addEventListener('click', function () {
     let balloonActive = document.getElementById('u-p');
     balloonActive.innerHTML = 'balloon!';
-})
+});
 hair.addEventListener('click', function () {
     let hairActive = document.getElementById('u-p');
     hairActive.innerHTML = 'hair!';
-})
+});
 
 function runGame() {
     pin.addEventListener('click', function () {
         game('pin');
-    })
+    });
     balloon.addEventListener('click', function () {
         game('balloon');
-    })
+    });
     hair.addEventListener('click', function () {
         game('hair');
-    })
-};
+    });
+}
 runGame();
 
 
@@ -58,22 +55,6 @@ function computerPick() {
     return choices[randomNumber];
 }
 
-/*
-function game(userChoice) {
-    const computerChoice = computerPick();
-    console.log("user choice => " + userPick);
-    console.log("computer pick => " + computerPick);
-}
-*/
-/*
-function gameEnd() {
-    if (userScore === 5 || compScore === 5) {
-        alert("The game has ended");
-    };
-    game();
-}
-*/
-
 function game(userChoice) {
     const computerChoice = computerPick();
     switch (userChoice + computerChoice) {
@@ -94,7 +75,7 @@ function game(userChoice) {
             break;
     }
 
-};
+}
 
 function determineWinner(computerChoice, userChoice, winner) {
     switch (winner) {
@@ -116,11 +97,3 @@ function determineWinner(computerChoice, userChoice, winner) {
     document.getElementById('c-p').innerHTML = computerChoice;
     document.getElementById('u-p').innerHTML = userChoice;
 }
-
-
-function runGameComputer(game) {
-    compvs.addEventListener('click', function () {
-        console.log('You clicked the button')
-    })
-};
-runGameComputer();
